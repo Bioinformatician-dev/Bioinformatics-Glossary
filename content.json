@@ -1,0 +1,12 @@
+[
+  {
+    "term": "Genomics",
+    "definition": "The study of the genome, the complete set of DNA within an organism.",
+    "example": "Genomics allows for the identification of genetic disorders."
+  },
+  {
+    "term": "Proteomics",
+    "definition": "The study of the proteome, the entire set of proteins expressed by a genome.",
+    "example": "Proteomics can help in understanding disease mechanisms."
+  }
+]
