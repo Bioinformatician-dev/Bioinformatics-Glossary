@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioinformatics Glossary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bioinformatics Glossary</h1>
+        <input type="text" id="search" placeholder="Search terms...">
+        <select id="category">
+            <option value="all">All Categories</option>
+            <option value="genomics">Genomics</option>
+            <option value="proteomics">Proteomics</option>
+            <option value="computational">Computational Biology</option>
+        </select>
+    </header>
+    <main id="glossary"></main>
+    <footer>
+        <h2>Contribute a Term</h2>
+        <form id="contribute-form">
+            <input type="text" id="term" placeholder="Term" required>
+            <input type="text" id="definition" placeholder="Definition" required>
+            <input type="text" id="example" placeholder="Example" required>
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
