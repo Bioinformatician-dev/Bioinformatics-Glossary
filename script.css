@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#glossary {
+    margin-top: 20px;
+}
+
+.term {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
